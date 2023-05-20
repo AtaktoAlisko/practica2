@@ -1,0 +1,11 @@
+input_str = "the largest city in country is the metropolis"
+
+output_str = ""
+
+for word in input_str.split():
+    if len(word) > 1:
+        output_str += word[0].upper() + word[1:-1] + word[-1].upper() + " "
+    else:
+        output_str += word.upper() + " "
+
+print(output_str.strip())

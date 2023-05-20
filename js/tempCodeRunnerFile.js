@@ -1,2 +1,2 @@
-const category='toys';
-console.log("https://someurl.com"+category);
+const logg="Alibek Murat";
+console.log(logg.slice(7,13));

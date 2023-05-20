@@ -1,0 +1,15 @@
+import math
+a=float(input("Enter number:"))
+b=int(input("Enter number:"))
+def calculate_x(a, b):
+    e = math.e
+    x = math.sqrt(a * b) / (math.pow(e, a) * b) + a * math.pow(e, 2 * a / b)
+    return x
+
+
+
+# Calculate x
+result = calculate_x(a, b)
+
+# Print the result
+print("The value of x is:", result)
